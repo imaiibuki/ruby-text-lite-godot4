@@ -1,0 +1,29 @@
+; Engine configuration file.
+; It's best edited using the editor UI and not directly,
+; since the parameters that go here are not all obvious.
+;
+; Format:
+;   [section] ; section goes before the key/value pairs
+;   key=value ; some types like vectors or arrays might be written across multiple lines.
+;
+; If you leave a section empty, it will be removed automatically after
+; defaults are set in each section, aiding feature detection.
+
+config_version=5
+
+[application]
+
+config/name="Ruby Text Lite Demo"
+config/description="Demo + tests for the free Ruby Text Lite addon (furigana for RichTextLabel, BBCode [ruby=] only)."
+run/main_scene="res://demo/demo.tscn"
+config/features=PackedStringArray("4.3")
+config/icon="res://addons/ruby_text_lite/icon.svg"
+
+[editor_plugins]
+
+enabled=PackedStringArray("res://addons/ruby_text_lite/plugin.cfg")
+
+[rendering]
+
+renderer/rendering_method="gl_compatibility"
+renderer/rendering_method.mobile="gl_compatibility"
