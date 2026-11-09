@@ -2,6 +2,7 @@
 
 [Ruby Text for Godot 4](https://ibuking289.itch.io/ruby-text-godot4)（$4）の無料
 Lite 版です。完全版はブラウザで試せます: [無料の Web デモ](https://ibuking289.itch.io/japanese-text-godot-demo)。
+仕組みの解説（Zenn）: [Godot 4 の RichTextLabel にルビ（ふりがな）を自力で付ける仕組み](https://zenn.dev/ibuking289/articles/godot4-ruby-richtextlabel)。
 
 `RichTextLabel` にふりがな / ルビ / ピンインを表示します。
 `[ruby=よみ]漢字[/ruby]` BBCode を使うと、本文の上に小さな読みテキストを
@@ -107,6 +108,6 @@ Strictness** を **Strict** にしてください。`RubyLabelLite` で 4.7.2 �
 
 ## ライセンス
 
-MIT（`LICENSE.txt` 参照）。フォントは同梱していません。日本語のフォント
-（例: Noto Sans JP）を `normal_font` に割り当ててください。full 版（Ruby Text for Godot 4）は別のライセンスで
+MIT（`LICENSE` 参照）。アドオン自体にフォントは要りません。日本語のフォント
+（例: Noto Sans JP）を `normal_font` に割り当ててください。デモにはそのまま表示できるよう Noto Sans JP（SIL OFL 1.1）を同梱しています（`NOTICE.md` 参照）。full 版（Ruby Text for Godot 4）は別のライセンスで
 個別に販売されています。

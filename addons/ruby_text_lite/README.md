@@ -110,6 +110,6 @@ Godot 4.3/4.4 have no such setting.
 
 ## License
 
-MIT (see `LICENSE.txt`). No font is bundled -- assign your own Japanese
+MIT (see `LICENSE`). No font is needed -- assign your own Japanese
 font (e.g. Noto Sans JP) via `normal_font`. The full version (Ruby Text for Godot 4) is sold separately
 under its own license.
